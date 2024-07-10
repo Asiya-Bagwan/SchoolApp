@@ -1,0 +1,189 @@
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Light gray background */
+            color: #4A235A; /* Main text color */
+            margin: 0;
+            padding: 0;
+        }
+
+header {
+    background-color: #4A235A; /* Light gray header background */
+    color: #fefbff; /* White text color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+}
+img{
+    /* mix-blend-mode:normal; */
+    mix-blend-mode: normal;
+    margin-left: -8px;
+    width: 164px;
+    height: -20px;
+    background-color: #4A235A;
+    border-radius: 95px;
+    margin-top: -40px;
+}
+header-title{
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header nav {
+    margin-left: auto; /* Push navigation to the right */
+}
+
+header a {
+    text-decoration: none;
+    color: #fefbff; /* White text color */
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #4A235A; /* Dark purple sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 100vh; /* Full viewport height for sidebar */
+    color: white; /* White text color for sidebar */
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+}
+
+.sidebar-menu {
+    width: 250px;
+    background-color: #4A235A; /* Sidebar color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 90vh;
+}
+
+.sidebar-menu a {
+    text-decoration: none;
+    color: #fefbff; /* White text color */
+    margin: 10px 0;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: white; /* White background for buttons */
+    border: 2px solid #fdfcfd; /* Sidebar color border */
+    border-radius: 24px;
+    color: #4A235A; /* Sidebar color text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.sidebar-menu button:hover {
+    background-color: #4A235A; /* Sidebar color on hover */
+    color: white; /* White text on hover */
+}
+
+.sidebar-menu i {
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+.content {
+    flex: 1;
+    padding: 20px;
+   /* background-color: #f2f2f2; */
+   background-image: url("https://img.freepik.com/free-photo/pile-books-pencils-desk_1150-18055.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 100vh;
+}
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            border:5px solid #4A235A;
+        }
+
+        .h2class {
+            color: #4A235A; /* Header text color */
+            /* text-align: center; */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #4A235A;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-btn {
+            text-align: center; /* Ensure button alignment */
+           
+        }
+
+        input[type="submit"] {
+    background-color: #4A235A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #311B92; /* Darker shade on hover */
+        }
+
+        .error-message {
+            color: #FF0000; /* Error message color */
+            font-size: 14px;
+        }

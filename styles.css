@@ -1,0 +1,229 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+body {
+   
+    background-color: #f0f0f0;
+    margin: 0;
+    /* padding: 20px; */
+    background-image: url("https://via.placeholder.com/1500");
+    background-size: cover; /* Ensure background image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    height: 80vh; /* Set the body height to the full viewport height */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4A235A;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 770px;
+    margin: 20px auto; /* Center the table and add top-bottom margin */
+}
+
+table, th, td {
+    border: 1px solid #4A235A;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #4A235A;
+}
+
+th {
+    background-color: #4A235A;
+    color: #e6dfdf;
+    border-radius: 2px 2px 0 0; /* Round the top corners */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* a {
+    text-decoration: none;
+    color: #fefbff; 
+    margin: 0 10px;
+    font-size: 16px;
+} */
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4A235A;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #3e1d4e; /* Darken the button on hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #4A235A;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    display: inline-block;
+
+    margin-left: 35vw;
+
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+   
+  }
+  
+  .pagination a.active {
+    background-color: #4A235A;
+    color: #4A235A;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  .centerItem{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    border: 5px solid #4A235A;
+    border-radius: 16px;
+    color: #4A235A;
+    display: flex;
+    padding: 20px;
+    
+  }
+  .centerItem ul {
+    align-items: center;
+   
+        
+    
+  }
+  .centerItem span{
+    text-align: right;
+  }
+  
+
+  .filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.class-filter {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #4A235A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clear-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content {
+    padding: 20px;
+}
+.student-Filter{
+    padding: 9px;
+    margin-right: 13px;
+    border: 3px solid #4A235A;
+    border-radius: 24px;
+    width: 172px;
+ 
+}
+.class-dropdown{
+    padding: 9px;
+    margin-right: 13px;
+    border: 3px solid #4A235A;
+    border-radius: 24px;
+    width: 172px;
+
+}
